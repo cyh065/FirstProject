@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BitmapMgr">
+      <UniqueIdentifier>{02f67df8-c847-4001-8335-5afb1e0e12b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{49416574-c76c-4896-80be-d0c10fb32648}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sample.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KBitmap.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KBitmapMgr.h">
+      <Filter>BitmapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KNode.h">
+      <Filter>BitmapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KLinkedList.h">
+      <Filter>BitmapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KHashTable.h">
+      <Filter>BitmapMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KCollision.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KEnemy.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="KHero.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="KObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="KVector.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="KSound.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sample.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KBitmap.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KBitmapMgr.cpp">
+      <Filter>BitmapMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KCollision.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KEnemy.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="KHero.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="KObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="KVector.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="KSound.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
